@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiFtySymbolsShared",
+    name: "swifty-symbols-shared",
 	products: [
         .library(
             name: "SwiFtySymbolsShared",
