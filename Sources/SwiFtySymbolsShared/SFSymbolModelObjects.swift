@@ -28,5 +28,6 @@ public struct SFSymbolGetObject: Codable {
 
 public struct SFTagSymbolRequest: Codable {
 	public let symbolID: UUID
+	/// Must not contain spaces
 	public let tagValue: String
 }
