@@ -26,4 +26,7 @@ public struct SFSymbolGetObject: Codable {
 	}
 }
 
-
+public struct SFTagSymbolRequest: Codable {
+	public let symbolID: UUID
+	public let tagValue: String
+}
