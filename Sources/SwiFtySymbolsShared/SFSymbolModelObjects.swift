@@ -56,4 +56,9 @@ public struct SFTagSymbolRequest: Codable {
 	public let symbolID: UUID
 	/// Must not contain spaces
 	public let tagValue: String
+
+	public init(symbolID: UUID, tagValue: String) {
+		self.symbolID = symbolID
+		self.tagValue = tagValue
+	}
 }
